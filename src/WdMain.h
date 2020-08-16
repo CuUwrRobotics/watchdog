@@ -28,7 +28,7 @@ YAML::Node wd_conf_file; // Assigned and read at initialization
 
 // NODES TO WATCH /////////////////////////////////////////////////////////////
 // Prevents balooning of memory in case config file is broken
-#define MAX_NODES_TO_WATCH	16
+#define MAX_NODES_TO_WATCH	32
 // Node priorities
 #define PRIORITY_CRITICAL		0
 #define PRIORITY_HIGH				1
